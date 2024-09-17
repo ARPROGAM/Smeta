@@ -1,0 +1,39 @@
+[
+  {
+    "id": "46",
+    "name": {
+      "en": "Heavy Concrete, Class B 12.5 (M150)",
+      "ru": "Бетон тяжелый, класс В 12.5 (М150)",
+      "uz": "Og'ir beton, klass B 12.5 (M150)"
+    },
+    "unit": "m³",
+    "quantity": 25.4592,
+    "price": 318788.00,
+    "total": 8116087.45
+  },
+  {
+    "id": "47",
+    "name": {
+      "en": "Heavy Concrete (Except Road) Grade 200 MRZ 100",
+      "ru": "Бетон тяжелый (кроме дорожного) марки 200 МРЗ 100",
+      "uz": "Og'ir beton (yo'l uchun emas) markasi 200 MRZ 100"
+    },
+    "unit": "m³",
+    "quantity": 57.12,
+    "price": 344894.00,
+    "total": 19700345.28
+  },
+  {
+    "id": "48",
+    "name": {
+      "en": "Propane-Butane Technical Mixture",
+      "ru": "Пропан-бутан техническая смесь",
+      "uz": "Propane-Butane texnik aralashmasi"
+    },
+    "unit": "kg",
+    "quantity": 0.324,
+    "price": 600.00,
+    "total": 194.40
+  }
+  // Add more products as needed
+]
