@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multilingual Product Site</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 id="site-title">Product List</h1>
+    <nav>
+      <button onclick="setLanguage('en')">English</button>
+      <button onclick="setLanguage('ru')">Русский</button>
+      <button onclick="setLanguage('uz')">O'zbekcha</button>
+    </nav>
+  </header>
+  
+  <main>
+    <table id="product-table">
+      <thead>
+        <tr>
+          <th id="product-id-header">ID</th>
+          <th id="product-name-header">Product Name</th>
+          <th id="product-unit-header">Unit</th>
+          <th id="product-quantity-header">Quantity</th>
+          <th id="product-price-header">Price</th>
+          <th id="product-total-header">Total</th>
+          <th id="actions-header">Actions</th>
+        </tr>
+      </thead>
+      <tbody id="product-table-body">
+        <!-- Product rows will be injected here by JavaScript -->
+      </tbody>
+    </table>
+    <button onclick="downloadData()">Download Data</button>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
